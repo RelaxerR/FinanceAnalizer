@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Family Finance AI</title>
+    <!-- Подключаем Tailwind через CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+<nav class="bg-white shadow-md p-4 mb-6">
+    <div class="container mx-auto flex justify-between">
+        <a href="/" class="font-bold text-xl text-blue-600">Family Finance</a>
+        <div class="space-x-4">
+            <a href="/Income" class="hover:text-blue-500">Доходы</a>
+            <a href="/Expenses" class="hover:text-blue-500">Расходы</a>
+            <a href="/Shopping" class="hover:text-blue-500">Покупки</a>
+        </div>
+    </div>
+</nav>
+
+<main class="container mx-auto px-4">
+    @RenderBody()
+</main>
+</body>
+</html>
